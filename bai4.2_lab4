@@ -1,0 +1,10 @@
+package lab4_lab8;
+
+public class main {
+	public static void main(String[] args) {
+		SanPham sp1 = new SanPham("keo mut", 15000, 5000);
+		SanPham sp2 = new SanPham("keo deo", 12000, 300);
+		sp1.xuat();
+		sp2.xuat();
+	}
+}
