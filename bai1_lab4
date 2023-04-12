@@ -1,0 +1,8 @@
+package bai1_lab8;
+
+public class main {
+	public static void main(String[] args) {
+		SanPham sp = new SanPham("keo mut", 15000, 5000);
+		sp.xuat();
+	}
+}
